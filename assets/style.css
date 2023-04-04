@@ -44,6 +44,26 @@ body {
 	width: 20px;
 }
 
+.carousel-wh {
+	max-width: 1440px;
+	height: auto;
+}
+
+.pic-left-wh {
+	max-width: 334px;
+	height: auto;
+}
+
+.gallery-wh {
+	width: 440px;
+	max-height: 440px;
+}
+
+.pic-right-wh {
+	max-width: 392px;
+	height: auto;
+}
+
 #about, #contact {
 	padding-block: 100px
 }
@@ -297,5 +317,7 @@ input[type="submit"] {
 	.picture {
 		width: 80%;
 	}
+	.gallery-wh {
+		width: 100%;
+	}
 }
-
