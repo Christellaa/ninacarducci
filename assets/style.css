@@ -45,8 +45,8 @@ body {
 }
 
 .carousel-wh {
-	max-width: 1440px;
-	height: auto;
+	height: 666px;
+	object-fit: cover;
 }
 
 .pic-left-wh {
