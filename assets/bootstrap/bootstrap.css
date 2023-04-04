@@ -300,8 +300,8 @@ textarea {
 }
 
 .img-fluid {
- width: 465px;
- height: 500px;
+ max-width: 100%;
+ height: auto;
  object-fit: cover;
 }
 
