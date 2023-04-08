@@ -44,26 +44,6 @@ body {
 	width: 20px;
 }
 
-.carousel-wh {
-	height: 666px;
-	object-fit: cover;
-}
-
-.pic-left-wh {
-	max-width: 334px;
-	height: auto;
-}
-
-.gallery-wh {
-	width: 440px;
-	max-height: 440px;
-}
-
-.pic-right-wh {
-	max-width: 392px;
-	height: auto;
-}
-
 #about, #contact {
 	padding-block: 100px
 }
