@@ -229,6 +229,9 @@ figure {
 img,
 svg {
   vertical-align: middle;
+  object-fit: cover;
+  width: 100%;
+  height: auto;
 }
 
 label {
