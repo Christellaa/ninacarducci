@@ -678,10 +678,13 @@ textarea {
 }
 
 .modal-dialog {
-  position: relative;
+  position: absolute;
   width: auto;
   margin: 0.5rem;
   pointer-events: none;
+  left: 0;
+  right: 0;
+  top: 30%;
 }
 
 .modal-backdrop {
