@@ -132,6 +132,7 @@
 	</script>
 	<title>Nina Carducci</title>
 	<meta name="description" content="Photographe passionée, je mets à disposition mon portfolio et je propose différents services selon certains critères.">
+	<!-- metas for cards when shared in social network -->
 	<meta itemprop="name" content="Nina Carducci">
 	<meta itemprop="description" content="Photographe passionée, je mets à disposition mon portfolio et je propose différents services selon certains critères.">
 	<meta itemprop="image" content="https://christellaa.github.io/ninacarducci/">
@@ -225,35 +226,40 @@
 <section id="services" class="m-auto position-relative">
 	<h2 class="title text-center">Mes services</h2>
 	<div class="container d-flex align-items-center">
-		<article class="service bg-white d-flex flex-column">
+		<article class="service bg-white d-flex flex-column" itemtype="https://schema.org/Product" itemscope>
 			<div class="service__description">
-				<h3>Shooting photo</h3>
-				<p>Pour capturer vos moments les plus précieux et garder un souvenir impérissable. Je me déplace en Île-de-France pour réaliser vos photos</p>
+				<h3 itemprop="name" content="Shooting photo">Shooting photo</h3>
+				<p itemprop="description" content="Pour capturer vos moments les plus précieux et garder un souvenir impérissable. Je me déplace en Île-de-France pour réaliser vos photos">Pour capturer vos moments les plus précieux et garder un souvenir impérissable. Je me déplace en Île-de-France pour réaliser vos photos</p>
 			</div>
-			<div class="service__price">
-				<h4>350€/demi journée</h4>
-				<span>Matériel, déplacement inclus</span>
-			</div>
-
-		</article>
-		<article class="service bg-white d-flex flex-column">
-			<div class="service__description">
-				<h3>Retouches</h3>
-				<p>Vous souhaitez retoucher vos photos pour un résultat professionnel ? Bénéficier d’un rendu optimal pour vos publications</p>
-			</div>
-			<div class="service__price">
-				<h4>50€/photo</h4>
-				<span>2 AR par photo</span>
+			<div class="service__price" itemprop="offers" itemtype="https://schema.org/AggregateOffer" itemscope>
+				<h4 itemprop="lowPrice" content="350">
+					<meta itemprop="priceCurrency" content="EUR">
+					350€/demi journée</h4>
+				<span itemprop="description" content="Matériel, déplacement inclus">Matériel, déplacement inclus</span>
 			</div>
 		</article>
-		<article class="service bg-white d-flex flex-column">
+		<article class="service bg-white d-flex flex-column" itemtype="https://schema.org/Product" itemscope>
 			<div class="service__description">
-				<h3>Album photos</h3>
-				<p>Partagez avec vos proches et vos clients les photos des moments partagés ensemble à travers un album photo personnalisé</p>
+				<h3 itemprop="name" content="Retouches">Retouches</h3>
+				<p itemprop="description" content="Vous souhaitez retoucher vos photos pour un résultat professionnel ? Bénéficier d’un rendu optimal pour vos publications">Vous souhaitez retoucher vos photos pour un résultat professionnel ? Bénéficier d’un rendu optimal pour vos publications</p>
 			</div>
-			<div class="service__price">
-				<h4>400€ album A4</h4>
-				<span>30 pages recto/verso</span>
+			<div class="service__price" itemprop="offers" itemtype="https://schema.org/AggregateOffer" itemscope>
+				<h4 itemprop="lowPrice" content="350">
+					<meta itemprop="priceCurrency" content="EUR">
+					50€/photo</h4>
+				<span itemprop="description" content="2 AR par photo">2 AR par photo</span>
+			</div>
+		</article>
+		<article class="service bg-white d-flex flex-column" itemtype="https://schema.org/Product" itemscope>
+			<div class="service__description">
+				<h3 itemprop="name" content="Album photos">Album photos</h3>
+				<p itemprop="description" content="Partagez avec vos proches et vos clients les photos des moments partagés ensemble à travers un album photo personnalisé">Partagez avec vos proches et vos clients les photos des moments partagés ensemble à travers un album photo personnalisé</p>
+			</div>
+			<div class="service__price" itemprop="offers" itemtype="https://schema.org/AggregateOffer" itemscope>
+				<h4 itemprop="lowprice" content="350">
+					<meta itemprop="priceCurrency" content="EUR">
+					400€ album A4</h4>
+				<span itemprop="description" content="30 pages recto/verso">30 pages recto/verso</span>
 			</div>
 		</article>
 	</div>
